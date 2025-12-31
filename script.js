@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyASOZOjztwenjYErH8G_snR1iNTVDVbJFA'; 
+const API_KEY = ''; 
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 
@@ -95,4 +95,5 @@ userInput.addEventListener('keypress', (e) => {
         handleUserInput();
     }
 });
+
 
